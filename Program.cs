@@ -4,7 +4,7 @@ void PrintArray(string[] newarray)
     Console.Write("[");
     for (int i = 0; i < newarray.Length; i++)
     {
-        Console.Write($"{newarray[i]} ");
+        Console.Write($"{newarray[i]}, ");
     }
     Console.WriteLine("]");
 }
@@ -36,7 +36,7 @@ void Fills3array(string[] newarray, string[] targetarray)
 
 void Demo ()
 {
-string[] countries = {"Russia", "USA", "UE", "ЭХ", "Germany", "France", "Italy", "Sweben"};
+string[] countries = {"Russia", "USA", "J", "CDN", "Germany", "France", "Italy"};
     Console.WriteLine(" ");
     string[] countriesshort = new string [newarraysize(countries)];
     Fills3array (countries, countriesshort);
